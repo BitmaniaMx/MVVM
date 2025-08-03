@@ -49,4 +49,7 @@ class PokemonDataManager {
         return pokemons.count
     }
     
+    func allPokemons() -> [Pokemon] {
+        return pokemons
+    }
 }
